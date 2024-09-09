@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Set the background color to black */
+body {
+    background-color: black;
+    color: white; /* Optional: to make text white for better visibility */
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+
+  /* Shapes */
+  .random-shape {
+      position: absolute;
+      width: 1699px; /* Size of the square */
+      height: 2500px;
+      background-color: rgba(228, 226, 216, 0.124); /* Semi-transparent white */
+      border-radius: 1px; /* Optional: rounded corners */
+      z-index: -3; /* Behind the text */
+  }
+  .random-shape2 {
+    position: absolute;
+    width: 99px; /* Size of the square */
+    height: 2500px;
+    background-color: rgba(237, 228, 180, 0.197); /* Semi-transparent white */
+    border-radius: 1px; /* Optional: rounded corners */
+    z-index: -3; /* Behind the text */
+}
+  
+  /* Random positions */
+  .shape1 {
+      top: -250%;
+      left: 60%;
+  }
+  .shape2 {
+    top: -200%;
+    left: 1%;
+}
+  .font-shape-color {
+    font-weight: bold;
+    color: rgba(203, 203, 183, 0.559); /* White color with 80% opacity */
+    font-size: 60px; /* Adjust font size as needed */
+    margin-bottom: 110px;
+  }
+  .section-title {
+    margin-top: 130px; /* Adjust the value as needed */
+    margin-bottom: 30px; 
+
+  }
+
+  .about-text {
+    font-size: 19px; /* Adjust font size as needed */
+
+  }
+
+  .navbar-custom {
+      background-color: #000000;
+      z-index: 10; /* Make sure the navbar is above the shape */
+      position: relative; /* Ensure it's positioned correctly */
+  }
+  
+  /* Style for interactive images */
+  .btn-image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: .25rem;
+    transition: transform 0.3s ease;
+    width: 100%; /* Make sure the container is full width */
+    max-width: 300px; /* Adjust this to your desired image width */
+    height: 400px; /* Adjust this to your desired image height */
+    margin: 15px
+  }
+  .btn-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    transition: transform 0.3s ease;
+  }
+  .btn-image:hover img {
+    transform: scale(1.05);
+  }
+  .btn-image:focus {
+    outline: none;
+  }
+
+  .carousel-img {
+    width: 400px; /* Set your desired width */
+    height: 500px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image covers the set dimensions without distortion */
+  }
+  .margin-top {
+    margin-top: 130px;
+  }
